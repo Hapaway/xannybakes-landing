@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b01b7554adde9276dc0d11391adac678",
-    "content-hash": "78b4f8230347b8a2dc751f921efdb9ac",
+    "hash": "c3c702af806c2d7293a2fb8958d65bd5",
+    "content-hash": "6c9172463674a640dab1d336e9d8af71",
     "packages": [
         {
             "name": "gum/gum",
@@ -17,7 +17,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/staydecent/Gum/zipball/1dae758c0c6da255e391efaf13aa20775fde75b1",
+                "url": "https://api.github.com/repos/staydecent/Gum/zipball/ed1aaf64451cdf86f2bdcdef042be353aaae11e8",
                 "reference": "1dae758c0c6da255e391efaf13aa20775fde75b1",
                 "shasum": ""
             },
@@ -90,6 +90,46 @@
                 "email"
             ],
             "time": "2015-09-22 13:58:03"
+        },
+        {
+            "name": "volnix/csrf",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/volnix/csrf.git",
+                "reference": "73743e18c22e680dfb6b34d0f7e8a649b4fc9532"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/volnix/csrf/zipball/73743e18c22e680dfb6b34d0f7e8a649b4fc9532",
+                "reference": "73743e18c22e680dfb6b34d0f7e8a649b4fc9532",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Volnix\\CSRF\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nick Volgas",
+                    "email": "nvolgas@ark.org"
+                }
+            ],
+            "description": "CSRF protection library that compares provided token to session token to ensure request validity.",
+            "homepage": "https://github.com/volnix/csrf",
+            "time": "2015-11-24 15:32:52"
         }
     ],
     "packages-dev": [],

@@ -1,6 +1,7 @@
 {
     "require": {
         "gum/gum": "dev-master",
-        "mandrill/mandrill": "^1.0"
+        "mandrill/mandrill": "^1.0",
+        "volnix/csrf": "^1.2"
     }
 }
