@@ -1,5 +1,6 @@
 {
     "require": {
-        "gum/gum": "dev-master"
+        "gum/gum": "dev-master",
+        "mandrill/mandrill": "^1.0"
     }
 }
