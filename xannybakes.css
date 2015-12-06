@@ -1,0 +1,68 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	color: #7c7c7c;	
+}
+
+.jumbotron {
+	padding-top: 48px;
+	padding-bottom:48px;
+	background-color: #cbf2e9;	
+}
+
+img.center {
+	display: block;
+	margin: 0 auto;
+}
+
+h1 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.gallery img {
+	max-width: 100%;
+	padding-bottom: 20px;
+}
+
+.row {
+	margin-bottom: 30px;
+}
+
+.row:last-child {
+	margin-bottom: 0;
+}
+
+.container.with-padding {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.instagram {
+	text-align: left;
+}
+.img-circle {
+	padding-bottom: 20px;
+	padding-top: 20px;
+
+}
+
+.list-unstyled {
+	padding-bottom: 15px;
+	padding-top: 20px;
+}
+
+.stickyfooter {
+	bottom: 0;
+	width: 100%;
+	background-color: #cbf2e9;
+}
+
+
+
+
