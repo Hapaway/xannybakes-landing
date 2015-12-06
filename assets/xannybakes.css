@@ -5,8 +5,8 @@ html {
 
 body {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;
-	color: #7c7c7c;	
+	font-size: 18px;
+	color: #686868;	
 }
 
 .jumbotron {
@@ -43,15 +43,51 @@ h1 {
 	margin-bottom: 60px;
 }
 
+.fa {
+	font-size: 3em;
+}
+
+a:link {
+	color: #686868; background-color: transparent; text-decoration: none;
+}
+
+a:visited {
+	color: #686868; background-color: transparent; text-decoration: none;
+}
+
+a:hover {
+	color: white; background-color: transparent; text-decoration: none;
+}
+
+
 .img-circle {
-	padding-bottom: 20px;
-	padding-top: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 
 }
 
-.contact {
-	padding-bottom: 15px;
+.about {
 	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.contact {
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.form-control {
+	background: transparent;
+	border-radius: 2px;
+	border: 1px solid #686868;
+}
+
+.btn {
+	border-radius: 2px;
+	background: transparent;
+	border: 1px solid #686868;
+	color:	#686868;
+
 }
 
 .textarea {
