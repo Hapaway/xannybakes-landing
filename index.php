@@ -5,7 +5,9 @@ require 'app/funcs.php';
 use Gum\Route as Gum;
 
 Gum::get('/', function() {
-  echo tpl('xannybakes');
+  echo tpl('xannybakes', array(
+    'csrf'=>\Volnix\CSRF\CSRF::getHiddenInputString()
+  ));
 });
 
 Gum::post('/contact', function() {
