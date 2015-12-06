@@ -10,8 +10,8 @@ body {
 }
 
 .jumbotron {
-	padding-top: 48px;
-	padding-bottom:48px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	background-color: #cbf2e9;	
 }
 
@@ -30,7 +30,7 @@ h1 {
 	padding-bottom: 20px;
 }
 
-.row {
+.gallery .row {
 	margin-bottom: 30px;
 }
 
@@ -43,18 +43,20 @@ h1 {
 	margin-bottom: 60px;
 }
 
-.instagram {
-	text-align: left;
-}
 .img-circle {
 	padding-bottom: 20px;
 	padding-top: 20px;
 
 }
 
-.list-unstyled {
+.contact {
 	padding-bottom: 15px;
 	padding-top: 20px;
+}
+
+.textarea {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .stickyfooter {
