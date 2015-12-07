@@ -44,7 +44,7 @@ h1 {
 }
 
 .fa {
-	font-size: 3em;
+	font-size: 2em;
 }
 
 a:link {
@@ -82,12 +82,20 @@ a:hover {
 	border: 1px solid #686868;
 }
 
+.form-control:focus {
+	box-shadow: none;
+	border-color: #686868;
+}
+
 .btn {
 	border-radius: 2px;
 	background: transparent;
 	border: 1px solid #686868;
 	color:	#686868;
+}
 
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+	border-color: #686868;
 }
 
 .textarea {
